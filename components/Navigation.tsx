@@ -2,11 +2,12 @@
 
 import {
 	NavigationMenu,
-	NavigationMenuList,
 	NavigationMenuItem,
 	NavigationMenuLink,
+	NavigationMenuList,
 	navigationMenuTriggerStyle,
 } from '@/components/ui/navigation-menu'
+
 import { navLinks } from '@/lib/navlinks'
 
 import Image from 'next/image'

@@ -1,4 +1,4 @@
-import { Github, Twitter, Linkedin, LucideIcon, Twitch } from 'lucide-react'
+import { Github, Linkedin, LucideIcon, Twitch, Twitter } from 'lucide-react'
 
 interface SocialLink {
 	Icon: LucideIcon

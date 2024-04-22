@@ -1,10 +1,11 @@
 import type { Metadata } from 'next'
 import { Plus_Jakarta_Sans } from 'next/font/google'
+import { HeartIcon } from 'lucide-react'
 
 import '@/styles/globals.css'
-import { cn } from '@/lib/utils'
+
 import { Navigation } from '@/components/Navigation'
-import { HeartIcon } from 'lucide-react'
+import { cn } from '@/lib/utils'
 
 const font = Plus_Jakarta_Sans({
 	subsets: ['latin'],
