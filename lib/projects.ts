@@ -9,14 +9,15 @@ export const projects = [
 	{
 		title: 'Oficina do comportamento',
 		caption: 'Wedding Maria Inês e Pedro',
-		smallDescription: 'Wedding website for one of my biggest friend ever.',
+		smallDescription: `"Oficina do Comportamento" is a website featuring the services of three therapists specializing in children's behavioral therapy.`,
 		link: 'https://oficinadocomportamento.pt/',
 		src: '/preview-oficinadocomportamento.jpg',
 	},
 	{
 		title: 'Devsplan',
 		caption: 'Portuguese programming podcast',
-		smallDescription: 'Wedding website for one of my biggest friend ever.',
+		smallDescription:
+			'Devsplan, the podcast where three seasoned developers come together to explore the intricate world of programming.',
 		link: 'https://devsplan.pt/',
 		src: '/preview-devsplan.jpg',
 	},

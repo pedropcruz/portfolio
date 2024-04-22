@@ -48,7 +48,7 @@ export const Hero = () => {
 							))}
 						</div>
 					</div>
-					<div className="flex flex-col prose-headings:text-7xl prose-headings:text-white prose-p:text-gray-400 prose-p:mt-0 max-w-none prose my-8">
+					<div className="flex flex-col prose-headings:lg:text-7xl prose-headings:text-white prose-p:text-gray-400 prose-p:mt-0 max-w-none prose my-8 text-center sm:text-left">
 						<h1>I build things for the web.</h1>
 						<p>
 							Love minimal and brutalism design. Turning ideas into real life
@@ -56,9 +56,9 @@ export const Hero = () => {
 						</p>
 					</div>
 				</div>
-				<div className="relative overflow-hidden row-span-1 justify-center flex flex-col col-span-4 lg:col-span-5 gap-x-8 gap-y-8 bg-meAvatar bg-cover bg-center bg-opacity-60 rounded-tr-3xl rounded-tl-lg rounded-br-lg rounded-bl-3xl max-mdd:max-w-none max-md:p-8 text-primary"></div>
-				<div className="relative overflow-hidden row-span-1 justify-center flex flex-col col-span-8 lg:col-span-4 bg-[#1b1b1b] p-12 rounded-tl-3xl rounded-tr-lg rounded-bl-lg rounded-br-3xl max-mdd:max-w-none max-md:p-8 text-white">
-					<div className="relative prose-2xl text-center">
+				<div className="relative overflow-hidden row-span-1 justify-center flex flex-col col-span-12 h-80 lg:h-auto lg:col-span-5 gap-x-8 gap-y-8 bg-meAvatar bg-cover bg-center bg-opacity-60 rounded-tr-3xl rounded-tl-lg rounded-br-lg rounded-bl-3xl max-mdd:max-w-none max-md:p-8 text-primary"></div>
+				<div className="relative overflow-hidden row-span-1 justify-center flex flex-col col-span-12 lg:col-span-4 bg-[#1b1b1b] p-12 rounded-tl-3xl rounded-tr-lg rounded-bl-lg rounded-br-3xl max-mdd:max-w-none max-md:p-8 text-white">
+					<div className="relative prose-sm md:prose-2xl text-center">
 						<Image
 							className="h-full w-full m-auto px-4 absolute top-0 left-0 right-0 bottom-0 opacity-5 z-0"
 							src="/logo-white.svg"
@@ -83,7 +83,7 @@ export const Hero = () => {
 						</TooltipProvider>
 					</div>
 				</div>
-				<div className="relative overflow-hidden row-span-1 justify-center flex flex-col col-span-6 lg:col-span-4 bg-[#1b1b1b] p-12 rounded-tl-3xl rounded-tr-lg rounded-bl-lg rounded-br-3xl max-mdd:max-w-none max-md:p-8 text-white">
+				<div className="relative overflow-hidden row-span-1 justify-center flex flex-col col-span-12 lg:col-span-4 bg-[#1b1b1b] p-12 rounded-tl-3xl rounded-tr-lg rounded-bl-lg rounded-br-3xl max-mdd:max-w-none max-md:p-8 text-white">
 					<div className="prose text-center prose-p:text-white prose-p:font-bold">
 						<Link
 							href="/PedroCruz_CV_20062023.pdf"
@@ -102,7 +102,7 @@ export const Hero = () => {
 						</Link>
 					</div>
 				</div>
-				<div className="relative overflow-hidden row-span-1 justify-center flex flex-col col-span-6 lg:col-span-4 bg-[#1b1b1b] p-12 rounded-tl-3xl rounded-tr-lg rounded-bl-lg rounded-br-3xl max-mdd:max-w-none max-md:p-8 text-white">
+				<div className="relative overflow-hidden row-span-1 justify-center flex flex-col col-span-12 lg:col-span-4 bg-[#1b1b1b] p-12 rounded-tl-3xl rounded-tr-lg rounded-bl-lg rounded-br-3xl max-mdd:max-w-none max-md:p-8 text-white">
 					<div className="prose prose-xl text-slate-50 text-center max-w-none">
 						<Badge variant="no-hover-secondary">Frontend Developer</Badge>
 						<Badge variant="no-hover-secondary">Ambitious</Badge>
