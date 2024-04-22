@@ -1,7 +1,7 @@
-'use client';
+'use client'
 
-import { Projects } from '@/components/Projects';
+import { Projects } from '@/components/Projects'
 
 export default function Page() {
-	return <Projects />;
+	return <Projects />
 }

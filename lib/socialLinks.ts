@@ -1,9 +1,9 @@
-import { Github, Twitter, Linkedin, LucideIcon, Twitch } from 'lucide-react';
+import { Github, Twitter, Linkedin, LucideIcon, Twitch } from 'lucide-react'
 
 interface SocialLink {
-	Icon: LucideIcon;
-	link: string;
-	alias: string;
+	Icon: LucideIcon
+	link: string
+	alias: string
 }
 
 export const socialLinks: SocialLink[] = [
@@ -27,4 +27,4 @@ export const socialLinks: SocialLink[] = [
 		link: 'https://www.twitch.tv/pedropcruz',
 		alias: 'Twitch',
 	},
-];
+]

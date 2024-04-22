@@ -7,4 +7,4 @@ export const navLinks = [
 		link: '/projects',
 		name: 'Projects',
 	},
-];
+]

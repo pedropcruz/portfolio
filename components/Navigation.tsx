@@ -1,4 +1,4 @@
-'use client';
+'use client'
 
 import {
 	NavigationMenu,
@@ -6,33 +6,33 @@ import {
 	NavigationMenuItem,
 	NavigationMenuLink,
 	navigationMenuTriggerStyle,
-} from '@/components/ui/navigation-menu';
-import { navLinks } from '@/lib/navlinks';
+} from '@/components/ui/navigation-menu'
+import { navLinks } from '@/lib/navlinks'
 
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from 'next/image'
+import Link from 'next/link'
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react'
 
 export const Navigation = () => {
-	const [show, setShow] = useState(true);
-	const [lastScrollY, setLastScrollY] = useState(0);
+	const [show, setShow] = useState(true)
+	const [lastScrollY, setLastScrollY] = useState(0)
 
 	useEffect(() => {
 		const controlNavbar = () => {
 			if (window.scrollY > lastScrollY) {
-				setShow(false);
+				setShow(false)
 			} else {
-				setShow(true);
+				setShow(true)
 			}
 
-			setLastScrollY(window.scrollY);
-		};
+			setLastScrollY(window.scrollY)
+		}
 
-		window.addEventListener('scroll', controlNavbar);
+		window.addEventListener('scroll', controlNavbar)
 
-		return () => window.removeEventListener('scroll', controlNavbar);
-	}, [lastScrollY]);
+		return () => window.removeEventListener('scroll', controlNavbar)
+	}, [lastScrollY])
 
 	return (
 		<NavigationMenu
@@ -62,5 +62,5 @@ export const Navigation = () => {
 				))}
 			</NavigationMenuList>
 		</NavigationMenu>
-	);
-};
+	)
+}

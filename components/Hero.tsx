@@ -1,21 +1,21 @@
-import Link from 'next/link';
-import Image from 'next/image';
+import Link from 'next/link'
+import Image from 'next/image'
 
-import Marquee from 'react-fast-marquee';
-import gsap from 'gsap';
+import Marquee from 'react-fast-marquee'
+import gsap from 'gsap'
 
-import { Badge } from '@/components/ui/badge';
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
-import { Button } from '@/components/ui/button';
-import { FileDownIcon, MailIcon } from 'lucide-react';
-import { socialLinks } from '@/lib/socialLinks';
+import { Badge } from '@/components/ui/badge'
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
+import { Button } from '@/components/ui/button'
+import { FileDownIcon, MailIcon } from 'lucide-react'
+import { socialLinks } from '@/lib/socialLinks'
 import {
 	Tooltip,
 	TooltipContent,
 	TooltipProvider,
 	TooltipTrigger,
-} from '@/components/ui/tooltip';
-import { technologies } from '@/lib/technologies';
+} from '@/components/ui/tooltip'
+import { technologies } from '@/lib/technologies'
 
 export const Hero = () => {
 	return (
@@ -167,5 +167,5 @@ export const Hero = () => {
 				</div>
 			</div>
 		</>
-	);
-};
+	)
+}

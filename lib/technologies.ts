@@ -131,4 +131,4 @@ export const technologies = [
 		name: 'Bitbucket',
 		icon: './bitbucket.svg',
 	},
-];
+]

@@ -1,4 +1,4 @@
-import { Experience } from '@/types';
+import { Experience } from '@/types'
 
 export const experiences: Experience[] = [
 	{
@@ -88,4 +88,4 @@ export const experiences: Experience[] = [
 			'SASS',
 		],
 	},
-];
+]

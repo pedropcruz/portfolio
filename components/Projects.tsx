@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import Image from 'next/image';
+import Link from 'next/link'
+import Image from 'next/image'
 
 import {
 	Card,
@@ -8,10 +8,10 @@ import {
 	CardFooter,
 	CardHeader,
 	CardTitle,
-} from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
+} from '@/components/ui/card'
+import { Button } from '@/components/ui/button'
 
-import { projects } from '@/lib/projects';
+import { projects } from '@/lib/projects'
 
 export const Projects = () => (
 	<div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16">
@@ -59,4 +59,4 @@ export const Projects = () => (
 			</Link>
 		))}
 	</div>
-);
+)

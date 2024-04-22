@@ -39,7 +39,8 @@ export const projects = [
 	{
 		title: 'Erising',
 		caption: 'Consultancy Company',
-		smallDescription: 'A small consultancy company from industry world. They provide consultancy services.',
+		smallDescription:
+			'A small consultancy company from industry world. They provide consultancy services.',
 		link: 'https://erising.pt',
 		src: '/preview-erising.jpg',
 	},
@@ -51,4 +52,4 @@ export const projects = [
 		link: 'https://www.sporting.pt/pt/modalidades/esports/atletas',
 		src: '/preview-scp.jpg',
 	},
-];
+]

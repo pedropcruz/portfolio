@@ -1,15 +1,15 @@
-import type { Metadata } from 'next';
-import { Plus_Jakarta_Sans } from 'next/font/google';
+import type { Metadata } from 'next'
+import { Plus_Jakarta_Sans } from 'next/font/google'
 
-import '@/styles/globals.css';
-import { cn } from '@/lib/utils';
-import { Navigation } from '@/components/Navigation';
-import { HeartIcon } from 'lucide-react';
+import '@/styles/globals.css'
+import { cn } from '@/lib/utils'
+import { Navigation } from '@/components/Navigation'
+import { HeartIcon } from 'lucide-react'
 
 const font = Plus_Jakarta_Sans({
 	subsets: ['latin'],
 	variable: '--font-sans',
-});
+})
 
 export const metadata: Metadata = {
 	title:
@@ -19,21 +19,21 @@ export const metadata: Metadata = {
 	openGraph: {
 		images: ['/seo.png'],
 	},
-};
+}
 
-export const dynamic = 'force-static';
+export const dynamic = 'force-static'
 
 export default function RootLayout({
 	children,
 }: {
-	children: React.ReactNode;
+	children: React.ReactNode
 }) {
 	return (
 		<html lang="en" className="scroll-smooth" suppressHydrationWarning>
 			<body
 				className={cn(
 					'bg-primary font-sans text-slate-50 antialiased',
-					font.className
+					font.className,
 				)}
 			>
 				<main className="w-full container mx-auto px-8 xl:px-0">
@@ -49,5 +49,5 @@ export default function RootLayout({
 				</footer>
 			</body>
 		</html>
-	);
+	)
 }
