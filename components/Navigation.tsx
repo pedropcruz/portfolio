@@ -37,7 +37,7 @@ export const Navigation = () => {
 
 	return (
 		<NavigationMenu
-			className={`p-12 py-6 transition duration-200 m-0 w-full md:mx-auto max-w-none flex justify-between bg-[#1b1b1b] rounded-2xl top-8 sticky left-0 right-0 z-10 ${
+			className={`p-12 py-6 transition duration-200 m-0 w-full md:mx-auto max-w-none flex justify-between bg-[#000] rounded-2xl top-8 sticky left-0 right-0 z-10 ${
 				show ? 'ease-in' : 'ease-out opacity-0'
 			}`}
 		>
@@ -46,6 +46,7 @@ export const Navigation = () => {
 					<Image
 						src="/logo_white.png"
 						alt="pedropcruz logo"
+						loading="lazy"
 						width={120}
 						height={41}
 					/>

@@ -18,8 +18,9 @@ export const metadata: Metadata = {
 		'Pedro Cruz - Frontend Developer Portfolio | Web Design & Development Projects',
 	description:
 		"Explore Pedro Cruz's impressive frontend developer portfolio showcasing a diverse range of web design and development projects. Find inspiration and innovative solutions for your next digital endeavor.",
+	metadataBase: new URL('https://pedropcruz.pt'),
 	openGraph: {
-		images: ['/seo.png'],
+		images: ['./seo.png'],
 	},
 }
 
@@ -49,11 +50,13 @@ export default function RootLayout({
 						{new Date().getFullYear()}
 					</p>
 				</footer>
-				<Script
-					strategy="afterInteractive"
-					src="https://pedropcruz-analytics.netlify.app/script.js"
-					data-website-id="f455612f-9e06-45f0-a266-e2238d7953b7"
-				/>
+				{process.env.NODE_ENV === 'production' && (
+					<Script
+						strategy="afterInteractive"
+						src="https://pedropcruz-analytics.netlify.app/script.js"
+						data-website-id="f455612f-9e06-45f0-a266-e2238d7953b7"
+					/>
+				)}
 			</body>
 		</html>
 	)

@@ -51,6 +51,7 @@ export const Projects = () => (
 							height={1050}
 							alt={project.title}
 							src={project.src}
+							loading="lazy"
 							className="group-hover:scale-110 transition duration-500 cursor-pointer object-cover opacity-45 group-hover:opacity-100"
 						/>
 					</CardContent>

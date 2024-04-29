@@ -39,6 +39,7 @@ export const Hero = () => {
 								<Button variant="ghost" key={key} asChild className="mx-1 p-2">
 									<Link
 										href={link}
+										data-umami-event={`${alias}-click`}
 										target="_blank"
 										aria-label={`${alias} pedropcruz`}
 									>
@@ -65,6 +66,7 @@ export const Hero = () => {
 							width={456}
 							height={548}
 							alt="@pedropcruz"
+							loading="lazy"
 						/>
 						<h2 className="min-w-full p-2 font-bold text-center text-transparent rounded bg-clip-text bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#1b1b1b] to-secondary m-0">
 							Currently working at
@@ -92,6 +94,7 @@ export const Hero = () => {
 						>
 							<p className="m-0">Download CV</p>
 							<Button
+								data-umami-event="download-cv"
 								variant="link"
 								className="animate-bounce p-2 text-white"
 								type="button"
@@ -115,14 +118,14 @@ export const Hero = () => {
 					<Image
 						className="h-full w-full m-auto absolute top-0 left-0 right-0 bottom-0 opacity-10 z-0"
 						rel="preload"
+						loading="lazy"
 						src="/bg.jpeg"
 						width={456}
 						height={548}
 						alt="codeeditor"
-						priority
 					/>
 
-					<div className="prose-sm prose-h4:text-gray-500">
+					<div className="prose-sm prose-h4:text-gray-500 z-10">
 						<h3>Constantly trying to improve myself</h3>
 						<h1>
 							Currently learning more about{' '}
@@ -135,11 +138,11 @@ export const Hero = () => {
 							<div className="mx-4 py-12" key={index}>
 								<Image
 									className="p-3 rounded-full bg-secondary/5"
+									loading="lazy"
 									src={icon}
 									alt={name}
 									width={80}
 									height={80}
-									priority
 								/>
 							</div>
 						))}
