@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Plus_Jakarta_Sans } from 'next/font/google'
 import { HeartIcon } from 'lucide-react'
+import Script from 'next/script'
 
 import '@/styles/globals.css'
 
@@ -48,6 +49,11 @@ export default function RootLayout({
 						{new Date().getFullYear()}
 					</p>
 				</footer>
+				<Script
+					strategy="afterInteractive"
+					src="https://pedropcruz-analytics.netlify.app/script.js"
+					data-website-id="f455612f-9e06-45f0-a266-e2238d7953b7"
+				/>
 			</body>
 		</html>
 	)
