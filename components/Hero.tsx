@@ -16,6 +16,8 @@ import { socialLinks } from '@/lib/socialLinks'
 import { technologies } from '@/lib/technologies'
 import { FileDownIcon, MailIcon } from 'lucide-react'
 
+import bgJPG from '@/public/bg.jpeg'
+
 export const Hero = () => {
 	return (
 		<>
@@ -88,7 +90,7 @@ export const Hero = () => {
 				<div className="relative overflow-hidden row-span-1 justify-center flex flex-col col-span-12 lg:col-span-4 bg-[#1b1b1b] p-12 rounded-tl-3xl rounded-tr-lg rounded-bl-lg rounded-br-3xl max-mdd:max-w-none max-md:p-8 text-white">
 					<div className="prose text-center prose-p:text-white prose-p:font-bold">
 						<Link
-							href="/PedroCruz_CV_19-05-2024.pdf"
+							href="/PedroCruz_CV_30-05-2024.pdf"
 							target="_blank"
 							className="flex justify-center items-center"
 						>
@@ -117,12 +119,9 @@ export const Hero = () => {
 				<div className="relative overflow-hidden row-span-1 justify-center flex flex-col col-span-12 lg:col-span-9 bg-[#1b1b1b] p-12 rounded-tl-3xl rounded-tr-lg rounded-bl-lg rounded-br-3xl max-md:max-w-none max-md:p-8 text-white">
 					<Image
 						className="h-full w-full m-auto absolute top-0 left-0 right-0 bottom-0 opacity-10 z-0"
-						rel="preload"
-						loading="lazy"
-						src="/bg.jpeg"
-						width={456}
-						height={548}
-						alt="codeeditor"
+						fill
+						src={bgJPG}
+						alt="coding background"
 					/>
 
 					<div className="prose-sm prose-h4:text-gray-500 z-10">
