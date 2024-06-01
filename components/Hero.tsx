@@ -90,7 +90,7 @@ export const Hero = () => {
 				<div className="relative overflow-hidden row-span-1 justify-center flex flex-col col-span-12 lg:col-span-4 bg-[#1b1b1b] p-12 rounded-tl-3xl rounded-tr-lg rounded-bl-lg rounded-br-3xl max-mdd:max-w-none max-md:p-8 text-white">
 					<div className="prose text-center prose-p:text-white prose-p:font-bold">
 						<Link
-							href="/PedroCruz_CV_30-05-2024.pdf"
+							href="/PedroCruz_CV_01-06-2024.pdf"
 							target="_blank"
 							className="flex justify-center items-center"
 						>
